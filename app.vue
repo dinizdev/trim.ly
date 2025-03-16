@@ -36,24 +36,26 @@ import Logo from './assets/imgs/logo.svg'
       class="hidden md:block absolute left-1/2 top-0 h-full w-px bg-amber-400"
     />
     <div
-      class="md:hidden absolute bottom-90 left-0 w-full h-px bg-amber-400"
+      class="md:hidden absolute bottom-75 left-0 w-full h-px bg-amber-400"
     />
 
     <!-- Lado Direito -->
     <div class="flex flex-col justify-center text-gray-200 items-center p-6 md:p-10 gap-5 bg-neutral-950 h-full">
       <div class="flex flex-col gap-4">
         <h1 class="text-2xl font-bold underline underline-offset-4">
-          Insira seu melhor email
+          Login v1.0
         </h1>
         <p class="text-gray-300">
-          Para entrar com magic link, insira seu e-mail abaixo:
+          Para entrar com magic link, insira seu melhor e-mail abaixo:
         </p>
-        <input
+       <form action="POST" class="flex flex-col gap-4">
+         <input
           type="email"
           placeholder="Digite seu email"
-          class="p-2 border-b-2 bg-transparent text-white cursor-text outline-none placeholder-gray-400 focus:ring-2 focus:ring-amber-400"
+          class="p-2 border-b-2 bg-transparent text-white cursor-text outline-none placeholder-gray-400 focus:none text-sm"
         />
-        <button class="bg-amber-400 text-black p-2 font-bold">Entrar</button>
+        <button class="bg-amber-400 text-black cursor-pointer p-2 font-bold" type="submit">Entrar</button>
+       </form>
       </div>
     </div>
   </div>
