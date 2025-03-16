@@ -36,7 +36,7 @@ import Logo from './assets/imgs/logo.svg'
       class="hidden md:block absolute left-1/2 top-0 h-full w-px bg-amber-400"
     />
     <div
-      class="md:hidden absolute bottom-75 left-0 w-full h-px bg-amber-400"
+      class="md:hidden absolute bottom-70 left-0 w-full h-px bg-amber-400"
     />
 
     <!-- Lado Direito -->
