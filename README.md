@@ -1,75 +1,29 @@
-# Nuxt Minimal Starter
+# Trim.ly - Encurtador de URLs
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Trim.ly é um encurtador de URLs moderno e escalável, desenvolvido com **Nuxt.js**, **Tailwind CSS** e **PostgreSQL**. O sistema tem um backend desacoplado para garantir maior flexibilidade e escalabilidade.
 
-## Setup
+## Tecnologias Utilizadas
 
-Make sure to install dependencies:
+- **Frontend:** Nuxt.js + Tailwind CSS
+- **Backend:** Node.js + Express (ou outra tecnologia de sua escolha)
+- **Banco de Dados:** PostgreSQL
+- **Autenticação:** Supabase Auth (opcional)
+- **Hospedagem:** Vercel (Frontend) e Railway/Render/Fly.io (Backend)
 
-```bash
-# npm
-npm install
+## Funcionalidades
 
-# pnpm
-pnpm install
+- Criar URLs encurtadas personalizadas
+- Redirecionamento rápido e eficiente
+- Estatísticas básicas de acesso (número de cliques, origem, etc.)
+- Autenticação para gerenciar links (opcional)
+- API para integração com outras aplicações
 
-# yarn
-yarn install
+## Como Rodar o Projeto
 
-# bun
-bun install
-```
+### Backend
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1. Clone o repositório e instale as dependências:
+   ```sh
+   git clone https://github.com/seu-usuario/trimly.git
+   cd trimly/backend
+   npm install
