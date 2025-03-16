@@ -1,40 +1,42 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "lint": "eslint --ext .js,.vue .",
-    "lint:fix": "eslint --ext .js,.vue --fix .",
-    "format": "prettier --write ."
-  },
-  "dependencies": {
-    "@nuxt/eslint": "1.2.0",
-    "@nuxt/fonts": "0.11.0",
-    "@nuxt/icon": "1.11.0",
-    "@nuxt/image": "1.9.0",
-    "@nuxt/ui": "3.0.0",
-    "@tailwindcss/vite": "^4.0.14",
-    "@vueuse/motion": "^3.0.3",
-    "framer-motion": "^12.5.0",
-    "nuxt": "^3.16.0",
-    "tailwindcss": "^4.0.14",
-    "typescript": "^5.6.3",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
-  },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
-  "devDependencies": {
-    "eslint": "^9.22.0",
-    "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-prettier": "^5.2.3",
-    "eslint-plugin-vue": "^10.0.0",
-    "nuxt-svgo": "^4.0.15",
-    "prettier": "^3.5.3",
-    "vite-svg-loader": "^5.1.0"
-  }
+	"name": "nuxt-app",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint --ext .js,.vue .",
+		"lint:fix": "eslint --ext .js,.vue --fix .",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"@nuxt/eslint": "1.2.0",
+		"@nuxt/fonts": "0.11.0",
+		"@nuxt/icon": "1.11.0",
+		"@nuxt/image": "1.9.0",
+		"@nuxt/ui": "3.0.0",
+		"@tailwindcss/vite": "^4.0.14",
+		"@vueuse/motion": "^3.0.3",
+		"framer-motion": "^12.5.0",
+		"nuxt": "^3.16.0",
+		"tailwindcss": "^4.0.14",
+		"vue": "^3.5.13",
+		"vue-router": "^4.5.0"
+	},
+	"packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+	"devDependencies": {
+		"@nuxt/devtools": "^2.3.0",
+		"@types/node": "^22.13.10",
+		"eslint": "^9.22.0",
+		"eslint-config-prettier": "^10.1.1",
+		"eslint-plugin-prettier": "^5.2.3",
+		"eslint-plugin-vue": "^10.0.0",
+		"nuxt-svgo": "^4.0.15",
+		"prettier": "^3.5.3",
+		"typescript": "^5.8.2",
+		"vite-svg-loader": "^5.1.0"
+	}
 }
