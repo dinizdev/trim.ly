@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   vite: {
-    plugins: [tailwindcss(), require('vite-svg-loader')()],
+    plugins: [tailwindcss()],
   },
   modules: [
     '@nuxt/eslint',
@@ -13,5 +13,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
     '@nuxt/ui',
+    'nuxt-svgo',
   ],
 })
