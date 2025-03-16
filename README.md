@@ -27,3 +27,4 @@ Trim.ly é um encurtador de URLs moderno e escalável, desenvolvido com **Nuxt.j
    git clone https://github.com/seu-usuario/trimly.git
    cd trimly/backend
    npm install
+   ```
